@@ -14,7 +14,7 @@ nome_mais_caro = ""
 preco_mais_caro = 0
 
 #leitura dos dados dos 10 produtos
-for i in range(1, 5):
+for i in range(1, 10):
     print("Produto", i)
     descricao = input("Descrição: ")
     preco_unitario = float(input("Preço unitário: "))
